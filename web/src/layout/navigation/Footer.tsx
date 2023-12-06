@@ -121,25 +121,25 @@ const Footer = (props: Props) => {
             </div>
             <div class="d-flex flex-column flex-md-row flex-wrap align-items-stretch justify-content-start text-light">
               <div class={styles.footerCol}>
-                <div class="h6 fw-bold text-uppercase">Project</div>
+                <div class="h6 fw-bold text-uppercase">Encyclopedia</div>
                 <div class="d-flex flex-column text-start">
                   <ExternalLink
                     class="link mb-1 opacity-75 text-white disabled text-decoration-none"
-                    href="https://github.com/cncf/landscape2"
+                    href="https://nixlang.wiki"
                   >
                     <div class="d-flex align-items-center">
                       <SVGIcon kind={SVGIconKind.Documentation} class="me-2" />
-                      Documentation
+                      nixlang.wiki
                     </div>
                   </ExternalLink>
                 </div>
               </div>
               <div class={styles.footerCol}>
-                <div class="h6 fw-bold text-uppercase">Community</div>
+                <div class="h6 fw-bold text-uppercase">Contribute</div>
                 <div class="d-flex flex-column text-start">
                   <ExternalLink
                     class="link mb-1 opacity-75 text-white disabled text-decoration-none"
-                    href="https://github.com/cncf/landscape2"
+                    href="https://github.com/nixlang-wiki/nixos-landscape"
                   >
                     <div class="d-flex align-items-center">
                       <SVGIcon kind={SVGIconKind.GitHub} class="me-2" />
