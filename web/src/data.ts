@@ -38,7 +38,7 @@ export const SMALL_DEVICES_BREAKPOINTS: Breakpoint[] = [Breakpoint.XS, Breakpoin
 export const DEFAULT_STICKY_MOBILE_NAVBAR_HEIGHT = 50;
 export const DEFAULT_STICKY_NAVBAR_HEIGHT = 72;
 export const DEFAULT_TAB = Tab.Explore;
-export const DEFAULT_VIEW_MODE = ViewMode.Grid;
+export const DEFAULT_VIEW_MODE = ViewMode.Card;
 export const DEFAULT_GRID_ITEMS_SIZE = GridItemsSize.Small;
 
 const FOUNDATION = window.baseDS.foundation;
